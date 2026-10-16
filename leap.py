@@ -7,5 +7,5 @@ def is_leap_year(year):
         return "not"
 
 if __name__ == "__main__":
-    year = int(sys.arg[1])
+    year = int(sys.argv[1])
     print("year is:", is_leap_year(year))
